@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Финансовый план</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Расчет расходов</h1>
+  <hr>
+  <h3>Каждое поступление денежных средств можно разбить по формуле ниже.</h3>
+  <form>
+    <label class="form__sum">
+      <span class="form__text">Введите сумму:</span>
+      <input class="form__input" type="text" id="sum" value="">
+    </label>
+    <ul>
+      <li>Обучение:
+        <span id="sum1"></span>
+        <span class="form__note">*
+          <span class="form__percent" id="percent1">10</span>
+          % на обучение (книги, тренинги, различные проработки).</span>
+      </li>
+      <li>Развлечения:
+        <span id="sum2"></span>
+        <span class="form__note">*
+        <span class="form__percent" id="percent2">10</span>
+          % на развлечения.</span>
+      </li>
+      <li>Крупные покупки:
+        <span id="sum3"></span>
+        <span class="form__note">*
+        <span class="form__percent" id="percent3">10</span>
+        % на крупные покупки (недвижимость, авто).</span>
+      </li>
+      <li>Инвестиции:
+        <span id="sum4"></span>
+        <span class="form__note">*
+          <span class="form__percent" id="percent4">10</span>
+          %.</span>
+      </li>
+      <li>Неожиданные траты:
+        <span id="sum5"></span>
+        <span class="form__note">*
+        <span class="form__percent" id="percent5">10</span>
+        %.</span>
+      </li>
+      <li>Повседневные расходы:
+        <span id="sum6"></span>
+        <span class="form__note">*
+          <span class="form__percent" id="percent6">50</span>
+          %.</span>
+      </li>
+    </ul>
+    <button type="button">
+      Рассчитать
+    </button>
+  </form>
+<script src="script.js"></script>
+</body>
+</html>

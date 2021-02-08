@@ -1,0 +1,65 @@
+body {
+  width: 700px;
+  margin: 0 auto;
+  padding: 100px 0;
+
+  font-family: serif;
+  font-weight: normal;
+  text-align: center;
+  color: #646464;
+
+  background-color: #eee;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+form {
+  text-align: left;
+}
+
+.form__sum {
+  font-size: 22px;
+}
+
+.form__note {
+  display: block;
+  width: 100%;
+
+  font-size: 12px;
+}
+
+.form__input {
+  background-color: transparent;
+  border: 1px solid #646464;
+  line-height: 22px;
+  padding: 0 10px;
+  font-family: serif;
+  font-weight: normal;
+  text-align: center;
+  color: #646464;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+li {
+  font-size: 22px;
+}
+
+button {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  bac
+}
